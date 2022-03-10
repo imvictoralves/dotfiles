@@ -1,5 +1,5 @@
 # LINUX
 
-'''
-xargs sudo apt-get install < ./os/linux/packages
-'''
+```
+xargs sudo apt-get install -y < ./packages
+```

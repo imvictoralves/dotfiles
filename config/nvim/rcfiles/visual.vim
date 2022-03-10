@@ -21,10 +21,9 @@ local nightfox = require('nightfox')
 nightfox.setup({
   fox = "nordfox",
   colors = {
-    bg = "#222222",
+    bg = "#000",
   }
 })
 
 nightfox.load()
 END
-

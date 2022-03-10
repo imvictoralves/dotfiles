@@ -11,14 +11,14 @@ installation instructions check [this][2].
 '''
 MYDOTFILES=~/dotfiles
 git clone https://github.com/imVictorAlves/dotfiles $MYDOTFILES
-rcup -d $MYDOTFILES -x README.md -x doc -U bin
+rcup -d $MYDOTFILES -x README.md -x doc -x packages -U bin
 '''
 
 Depending which OS I am setting up. I choose the right tag (linux or macos).
 E.g. on linux I run:
 
 '''
-rcup -d $MYDOTFILES -x README.md -x packages -U bin -t linux
+rcup -d $MYDOTFILES -x README.md -x doc -x packages -U bin -t linux
 '''
 
 ## What software do I use?

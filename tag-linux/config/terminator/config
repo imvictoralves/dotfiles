@@ -1,5 +1,4 @@
 [global_config]
-  window_state = fullscreen
   borderless = True
   tab_position = bottom
   scroll_tabbar = True
@@ -11,12 +10,13 @@
 [profiles]
   [[default]]
     icon_bell = False
-    background_darkness = 0.93
+    background_darkness = 0.94
     background_type = transparent
     cursor_shape = underline
     cursor_color = "#aaaaaa"
     font = MesloLGLDZ Nerd Font Mono 12
     show_titlebar = False
+    scrollbar_position = hidden
     use_system_font = False
   [[stream]]
     background_darkness = 0.91

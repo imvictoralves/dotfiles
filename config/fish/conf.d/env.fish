@@ -1,0 +1,2 @@
+
+set -Ux EDITOR nvim

@@ -14,3 +14,11 @@ function! MarkdownMode()
   setlocal linebreak
 endfunction
 
+:nnoremap <leader>[ i- [ ]  
+
+:nnoremap <F5> "=strftime("%Y.%m.%d %H:%M %a")<CR>P
+:inoremap <F5> <C-R>=strftime("%Y.%m.%d %H:%M %a")<CR>
+:nnoremap <F6> "=strftime("%Y.%m.%d %a")<CR>P
+:inoremap <F6> <C-R>=strftime("%Y.%m.%d %a")<CR>
+:nnoremap <F7> "=strftime("%H:%M")<CR>P
+:inoremap <F7> <C-R>=strftime("%H:%M")<CR>
